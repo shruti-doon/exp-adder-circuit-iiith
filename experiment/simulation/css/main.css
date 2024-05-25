@@ -1,5 +1,6 @@
 .window { z-index:20; }
 .jtk-connector { z-index:4; }
+.jtk-connector :hover { z-index:4; stroke-width: 6; }
 .jtk-endpoint { z-index:5; }
 .jtk-overlay { z-index:6; }
 
@@ -110,7 +111,7 @@ text {
   margin: auto;
   padding: 1.2rem 0rem;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.8rem;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -193,7 +194,7 @@ text {
   justify-content: center;
   align-items: center;
   display: flex;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-decoration: none;
   color: black;
   height: 100%;
@@ -211,15 +212,15 @@ text {
   position: absolute;
   top: -30px;
   align-items: center;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 
 .output {
   display: inline-block;
   position: absolute;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   border: 0.2rem solid rgb(20, 21, 22);
   z-index: 1;
@@ -267,7 +268,7 @@ text {
 }
 
 svg.wire path {
-  stroke: #456;
+  stroke: rgb(182, 196, 210);
   stroke-width: 3;
 }
 
